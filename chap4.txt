@@ -1,0 +1,31 @@
+[["In superconductivity the conductivity of a material becomes","Zero","Finite","Infinite","None of the above","2"], 
+
+["In superconductivity, the electrical resistance of material becomes ","Zero","Infinite","Finite","All of the above","0"], 
+
+["The temperature at which conductivity of a material becomes infinite is called","Critical temperature","Absolute temperature","Mean temperature","Crystallization temperature","0"], 
+
+["Which of the following conductor has highest critical temperature?","Aluminium","Zinc","Molybdenium","Tin","3"], 
+
+["The first high temperature superconductor was invented by"," Sir Alex Muller ","sir Johannes bednorz","Sir Walter Wingfield","both a and b","3"], 
+
+["Super conductors are discovered in the year _______","1900 ","1991","1911","1905","2"], ["The normal metal passes into super conducting state at ___________.","High temperture","Low temperture","Critical temperature","No tenperature","2"], 
+
+["The hard super conductors are those in which the ideal behaviour is seen up to a ________ critical magnetic field ","Higher","Lower","Moderate","Zwro","1"], 
+
+["Superconducting materials are the type of ","Diamagnetic meterials","Dielectric materials","Ferromagnetic materials","Paramagnetic materials","0"], 
+
+["Which one is not having permanent dipoles in absence of magnetic field?"," Paramagnetic material "," Ferromagnetic material"," Ferrimagnetic material"," diamagnetic material","0"], 
+
+["Dielectric materials are also termed as "," Conductors "," semiconductors "," Insulators "," superconductors ","2"], 
+
+["SQUID is an application of___.","Semiconducting materials ","Nano matrial","Superconducting material","Bio materila","2"], 
+
+["Superconducting materials are the type of____.","Diamagnetic materials ","Dielectric materila","Feroomagnetic materilas","Paramagnetic materila","0"], 
+
+["The relation between transition temperature of a superconductor and iu isotopic mass M is given as___.","T<sub>c</sub> ∝ M<sup>-1/2<sup>","T<sub>c</sub> ∝ M<sup>1/2<sup>","T<sub>c</sub> ∝ 2M<sup>-1/2<sup>","T<sub>c</sub> ∝ 2M<sup>1/2<sup>","0"], 
+
+["For superconductors magnetic susceptibility &chi;<sub>m</sub> _____.","0 ","1","-1","&infin;","2"], 
+
+["Cooper pairs are formed between electrons","of same spin","of opposite spin","of same velocity","of different velocity","0"], 
+
+["The resistivity of liquid helium drops to zero at ___ K.","3.8 K ","4.2 K ","6 K ","0 K ","1"]] 

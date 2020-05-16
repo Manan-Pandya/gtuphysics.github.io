@@ -1,0 +1,64 @@
+body{
+    margin:0;
+    padding: 0;
+}
+#splash{
+    height: 100%;
+    width: 100%;
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+.fixed-action-btn-l {
+    position: fixed;
+    right: 10%;
+    bottom: 15%;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 997;
+}
+
+.fixed-action-btn-r {
+    position: fixed;
+    left: 10%;
+    bottom: 15%;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 997;
+}
+
+.fixed-action-btn-c {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 997;
+}
+
+.collection > li{
+    display: block;
+    font-size: larger;
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background: white;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}

@@ -1,0 +1,158 @@
+<style>
+    #aboutus{
+        top:0 !important;
+        margin:0 !important;
+        max-height: 100% !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+</style>
+<div id="main-frame">
+<nav class="transparent">
+    <span class="brand-logo black-text left"><i class='material-icons' style="color: black;font-size: 35px;">emoji_objects</i></span>
+    <span class="brand-logo black-text center">GTU Physics</span>
+    <a class="brand-logo right modal-trigger" href="#aboutus"><i class='material-icons' style="color: black;">perm_identity</i></a>
+</nav>
+<div id="aboutus" class="modal">
+    
+    <nav class="transparent">
+        <span class="brand-logo black-text left circle modal-close waves-effect"><i class="material-icons">arrow_back</i></span>
+        <span class="brand-logo black-text center">Developers</span>
+    </nav>
+    <div class="modal-content">
+        <ul class="collection">
+            <li class="collection-item avatar">
+                <i class="material-icons circle">account_circle</i>
+              <span class="title">Developer</span>
+              <p>Manan Pandya
+              </p>
+              <a href="mailto:pandyamanan0778@gmail.com" class="secondary-content"><i class="material-icons">mail</i></a>
+            </li>
+            <li class="collection-item avatar">
+                <i class="material-icons circle">account_circle</i>
+              <span class="title">Content Writer</span>
+              <p>Kishan Pitroda
+              </p>
+              <a href="mailto:kishanpitroda0007@gmail.com" class="secondary-content"><i class="material-icons">mail</i></a>
+            </li>
+            <li class="collection-item avatar">
+                <i class="material-icons circle">account_circle</i>
+              <span class="title">Project Serving Platform Finder</span>
+              <p>Yash Mungpara
+              </p>
+              <a href="mailto:ymungpara@gmail.com" class="secondary-content"><i class="material-icons">mail</i></a>
+            </li>
+            <li class="collection-item avatar">
+                <i class="material-icons circle">account_circle</i>
+              <span class="title">Guide</span>
+              <p>Sonal Madam
+              </p>
+            </li>    
+        </ul>
+</div>
+</div>
+<ul id="main-list" class="collection">
+</ul> 
+</div>
+<div id="quiz" class="row" style="margin:0;width: 100%;height: 100%;display: none;background-color: black;overflow-y: auto;">
+    <div class="navbar-fixed">
+        <nav style="background-color: #333333;">
+          <div class="nav-wrapper">
+            <span class="brand-logo left"><i class="material-icons">arrow_back</i></span>      
+            <span style="margin-left:5px;font-size: large;" id="quizh"></span>
+        </div>
+        <div class="nav-content">
+            <ul id='qtabs' style="list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #333333;overflow-x: auto;display: flex;">
+            </ul>
+        </div>
+        </nav>
+      </div>
+    <div id="quizd"></div>
+</div>
+<script>
+    
+  $(document).ready(function(){
+    $('.modal').modal();
+    $('.tabs').tabs();
+
+  });
+
+    var arr = ["Properties Of Matter","Wave Motion and Acoustics","Ultrasonic and Non-Destructive Testing","Superconductivity","Laser"];
+for(var i=0;i<arr.length;i++){
+    $("#main-list").append("<li class=\"collection-item waves-effect\" onclick=\"loadQ("+(i+1)+")\">"+(i+1)+". "+arr[i]+"</li>");
+}
+
+function loadQ(ind){
+    $("#main-frame").hide();
+    var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    arrStr = JSON.parse(this.responseText);
+    var ln = arrStr.length
+
+    for(var j=0;j<ln;j++){
+    if(j==0){
+            $("#quiz").append("<div style='width:100%' class='fixed-action-btn-c'><a style='width:100%' class='btn-large blue' id='submitq'>Submit</a></div><div class='fixed-action-btn-r'><a class='btn-floating btn-large blue' id='prvq'><i class='large material-icons'>keyboard_arrow_left</i></a></div><div class='fixed-action-btn-l'><a class='btn-floating btn-large blue' id='nxtq'><i class='large material-icons'>keyboard_arrow_right</i></a></div>");
+        }
+        $("#qtabs").append("<li selected='no' data-id='"+(j+1)+"' id='tab"+(j+1)+"' style='padding-left:15px;padding-right:15px' class='blue-text'>"+(j+1)+"</li>");
+}
+
+$("#qtabs").children("li").click(function(){
+    $("#qtabs").children("li").css("border-bottom","0px");
+    $("#qtabs").children("li").removeAttr("selected");
+    $(this).css("border-bottom","1px solid #2196F3");
+    $(this).attr("selected","selected");
+    
+    if($(this).attr("id")=="tab1"){
+        $("#nxtq").show();
+        $("#prvq").hide();
+    }else if($(this).attr("id")=="tab"+ln){
+        $("#prvq").show();
+        $("#nxtq").hide();
+    }else{
+        $("#prvq").show();
+        $("#nxtq").show();
+    }
+     $("div[id*='tab']").hide();
+     $("div[id='"+$(this).attr("id")+"']").show();
+  })
+  
+  
+  $("#nxtq").click(function(){
+    $("li[id='tab"+(parseInt($("li[selected='selected']").attr("data-id"))+1)+"']").click();
+    $("#qtabs").scrollTo($("li[id='tab"+(parseInt($("li[selected='selected']").attr("data-id")))+"']"));
+  })
+  $("#prvq").click(function(){
+    $("li[id='tab"+(parseInt($("li[selected='selected']").attr("data-id"))-1)+"']").click();    
+    $("#qtabs").scrollTo($("li[id='tab"+(parseInt($("li[selected='selected']").attr("data-id")))+"']"));
+    })
+
+for(var w=0;w<ln;w++){
+    if(w==0){$("#quiz").append("<br><br><br>");}
+    $("#quiz").append("<div id='tab"+(w+1)+"' style='display:none' class='col s12'><div style='margin-left:10px;margin-right:10px;width:calc(100% - 20px)' class='card-panel waves-effect'><b>"+(w+1)+"</b>. "+arrStr[w][0]+"<br><p><label><input class='with-gap' name='group"+w+"' value='1' type='radio'/><span class='black-text'>"+arrStr[w][1]+"</span></label></p><p><label><input class='with-gap' name='group"+w+"' value='2' type='radio'/><span class='black-text'>"+arrStr[w][2]+"</span></label></p><p><label><input class='with-gap' name='group"+w+"' value='3' type='radio'/><span class='black-text'>"+arrStr[w][3]+"</span></label></p><p><label><input class='with-gap' name='group"+w+"' value='4' type='radio'/><span class='black-text'>"+arrStr[w][4]+"</span></label></p></div></div>"); 
+}
+
+
+
+    $("#submitq").click(function(){
+        var count = 0;
+for(var q=0;q<ln;q++){
+    $("input[name='group"+q+"'][value='"+(parseInt(arrStr[q][5]) + 1)+"']").parent("label").children("span").html("<span style='color:green'>"+$("input[name='group"+q+"'][value='"+(parseInt(arrStr[q][5]) + 1)+"']").parent("label").children("span").html()+"</span>");
+    if($("input[name='group"+q+"']:checked").val() == (parseInt(arrStr[q][5]) + 1)){
+        count++;
+    }        
+}
+alert("Correct Answers : "+count);
+    })
+  }
+  
+$("li[id='tab1']").click();
+};
+xmlhttp.open("GET", "chap"+ind+".txt", true);
+xmlhttp.send();
+    $("#quiz").show();
+    $("#quizh").html(arr[ind-1]);
+
+}
+
+</script>

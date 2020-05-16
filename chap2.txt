@@ -1,0 +1,15 @@
+[["Which of the following equations represent harmonic oscillations ?","(d<sup>2</sup>𝑋 / 𝑑𝑡<sup>2</sup>)=(−3/2)𝑋","d<sup>2</sup>𝑋/𝑑𝑡<sup>2</sup>=(−3/2)𝑋<sup>2</sup>","d<sup>2</sup>𝑋/𝑑𝑡<sup>2</sup>=(−3/2𝑋)","d<sup>2</sup>𝑋/𝑑𝑡<sup>2</sup>=−3/2","0"],
+
+["if ((d<sup>2</sup>𝑋)/(𝑑𝑡<sup>2</sup>))ω<sup>2</sup>𝑦=0 representing vibration of a particle, the time period of the oscillation is","𝜔<sup>2</sup>","𝜔<sup>3</sup>","2𝜋𝜔","𝜔2𝜋","2"],
+
+["The total energy of particle performing SHM is directly proportional to","𝐴−2","𝐴2","𝐴3","𝐴−1","1"],
+
+["Which one of the following is not necessary for SHM","Elasticity","Inertia","Restoring force","Gravity","0"],
+
+["A velocity of particle performing SHM is maximum at","Equilibrium position"," Extreme position "," Midway between zero and maximum "," No where ","2"],
+
+["Total energy of the particle performing SHM is same aquestion_here"," Equilibrium position "," Midway between zero and maxima","Extreme position","All of them","3"],
+
+["The potential energy of particle performing SHM is maximum at"," Equilibrium position"," Extreme "," Midway between zero and maxima"," At 1/3 of its amplitude","1"],
+
+["What is the nature of acceleration of a particle executing damped oscillation ?"," Continuously decreasing","Continuously increasing"," It is constant"," Increases and decreases alternately ","0"]]
