@@ -1,0 +1,49 @@
+[[". Which of the following is a unique property of laser? "," Directional "," Speed "," Coherence "," Wavelength ","2"], 
+
+["Which of the following is an example of optical pumping? ","Ruby laser "," Helium-Neon laser "," Semiconductor laser ","Dye laser ","0"],
+
+["Calculate the wavelength of radiation emitted by an LED made up of a semiconducting material with band gap energy 2.8eV. ","2.8 Å "," 4.3308 Å "," 5548.4 Å "," 4430.8 Å ","3"], 
+
+["Calculate the number of photons, from green light of mercury (ʎ = 4961 Å), required to do one joule of work","4524.2×10<sup>18</sup>/m<sup>3</sup>","2.4961×10<sup>18</sup>/m<sup>3</sup>","2.4961/m<sup>3</sup>","2.4961/m","1"], 
+
+["Which of the following can be used for the generation of laser pulse?"," Ruby laser"," Carbon dioxide laser"," Helium neon laser","Nd- YAG laser","3"], 
+
+["What is the need to achieve population inversion?"," To excite most of the atoms"," To bring most of the atoms to ground state"," To achieve stable condition"," To reduce the time of production of laser","0"], 
+
+["Laser is called as ____."," non-material"," non-metal"," metal","all of them","0"], 
+
+["Which of the following is used in atomic clocks?","Laser ","Quartz","Maser","Helium","2"], 
+
+["Which of the following can be used in the vibrational analysis of structure?","Quarts","electrical waves","Laser","maser","2"], 
+
+["How many types of sources of optical light are available?","1 ","2","3","4","2"], 
+
+["The frequency of the absorbed or emitted radiation is related to difference in energy E between the higher energy state E2 and the lower energy state E1. State what h stands for in the given equation? E =E2 – E1 = hf"," Gravitation constant"," Planck’s constant","Permittivity"," Attenuation constant","1"], 
+
+["The radiation emission process (emission of a proton at frequency) can occur in __________ ways.","2 ","3","4","1","0"], 
+
+["Which process gives the laser its special properties as an optical source?"," Dispersion"," Stimulated absorption"," Spontaneous emission"," Stimulated emission","3"], 
+
+["An incandescent lamp is operating at a temperature of 1000K at an operating frequency of 5.2×1014 Hz. Calculate the ratio of stimulated emission rate to spontaneous emission rate.","3×10<sup>−13</sup>","1.47x10<sup>−11</sup>","2×10<sup>−12</sup>","1.5×10<sup>−13</sup>","1"], 
+
+["The lower energy level contains more atoms than upper level under the conditions of _____.","Isothermal packaging","Population inversion","Thermal equilibrium","Pumping","2"], 
+
+["__________________ in the laser occurs when photon colliding with an excited atom causes the stimulated emission of a second photon."," Light amplification","Attenuation","Dispersion","Population inversion","1"], 
+
+["A ruby laser has a crystal of length 3 cm with a refractive index of 1.60, wavelength 0.43 μm. Determine the number of longitudinal modes."," 1×10<sup>2</sup>","3×10<sup>6</sup>","2.9×10<sup>5</sup>","2.2×10<sup>5</sup>","3"], 
+
+["Ratio of probabilities of spontaneous emission and stimulated emission","Independent of frequency v","Proportional to frequency v"," Proportional v<sup>3</sup>"," Proportional to v<sup>3</sup>","2"], 
+
+["Laser beam is highly coherent so it can be used in","polariation","interference","diffraction","Rutherford scattering","1"], 
+
+["Laser light is perfectly monochromatic. It implies that it has","Narrow width","Wide width","Fifferent colors","Single frequency","3"], 
+
+["A laser light consists of:","cosmic rays ","Electrons stream","light material ","perfectly coherent photons","3"], 
+
+["The life time of an atom in metastable state is of order of____Seconds.","10<sup>−9</sup> to 10<sup>−8</sup>","10<sup>−8</sup> to 10<sup>−6</sup>","10<sup>−6</sup> to 10<sup>−3</sup>","10<sup>−2</sup> to 10<sup>−2</sup>","0"], 
+
+["Laser beam is highly coherent so it can be used in___.","polarization ","interference","diffraction","scattering","1"], 
+
+["The Lasers are classified:"," according to size and shape of cavity resonator","according to state of Laser medium and according to the nature of output","according to type of pumping","all of the above","1"], 
+
+["The potential energy source for inducing fusion reaction is"," x-ray ","laser"," ultraviolet "," microwave","1"]]

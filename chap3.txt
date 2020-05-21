@@ -1,0 +1,59 @@
+[["Which of the following equations represent harmonic oscillations ?","(d<sup>2</sup>𝑋 / 𝑑𝑡<sup>2</sup>)=(−3/2)𝑋","d<sup>2</sup>𝑋/𝑑𝑡<sup>2</sup>=(−3/2)𝑋<sup>2</sup>","d<sup>2</sup>𝑋/𝑑𝑡<sup>2</sup>=(−3/2𝑋)","d<sup>2</sup>𝑋/𝑑𝑡<sup>2</sup>=−3/2","0"],
+
+["if ((d<sup>2</sup>𝑋)/(𝑑𝑡<sup>2</sup>))ω<sup>2</sup>𝑦=0 representing vibration of a particle, the time period of the oscillation is","𝜔<sup>2</sup>","𝜔<sup>3</sup>","2𝜋𝜔","𝜔2𝜋","2"],
+
+["The total energy of particle performing SHM is directly proportional to","𝐴−2","𝐴2","𝐴3","𝐴−1","1"],
+
+["Which one of the following is not necessary for SHM","Elasticity","Inertia","Restoring force","Gravity","0"],
+
+["A velocity of particle performing SHM is maximum at","Equilibrium position"," Extreme position "," Midway between zero and maximum "," No where ","2"],
+
+["Total energy of the particle performing SHM is same aquestion_here"," Equilibrium position "," Midway between zero and maxima","Extreme position","All of them","3"],
+
+["The potential energy of particle performing SHM is maximum at"," Equilibrium position"," Extreme "," Midway between zero and maxima"," At 1/3 of its amplitude","1"],
+
+["What is the nature of acceleration of a particle executing damped oscillation ?"," Continuously decreasing","Continuously increasing"," It is constant"," Increases and decreases alternately ","0"],
+
+["Frequency of ultrasonic wave is :"," Less than 20 Hz","More than 20 KHz."," Lies between 20 Hz to 20 KHz","None of the above","1"],
+
+["The audible limit of sound lies in between :","20 Hz to 2KHz","20HZ to 20Khz","20hz to 20Mhz"," None of the above ","1"],
+
+["Depth of sea is determined by the formula:","d=vt/2 ","d=2v/t","d=2t/v","none of above","0"],
+
+["Velocity of ultrasonics in water medium is of the order of :","340 m/s ","1700 m/s ","5500 m/s ","600 m/s ","0"],
+
+["SONAR is used to detect the position of:"," iceberg submarine in water "," Mountain "," Aeroplane in air "," None of the above ","0"],
+
+["Ultrasonic wave can be produced by using"," Electric oscillator "," Magnetostriction oscillator "," Piezo-electric oscillator ","b and c both","3"],
+
+["Piezoelectric effect is observed in the material like :","Iron ","Lead","Quartz","nael","2"],
+
+["Ultrasonic wave can travel long distances due to its :","High frequency ","high intensity","High wavelength","low frequency","0"],
+
+["Material used for the production of ultrasonic waves in magnetostriction effect is __.","Paramagnetic ","Diamagnetic","Ferromagnetic","Can not say","2"],
+
+["Which of the following waves does not belong to the electromagnetic spectrum","X-rays","Microwave","infrared","ultra wave","3"],
+
+["The dimensional formula for frequency of ultrasonic sound is","M<sup>0</sup>L<sup>0</sup>T<sup>0</sup>","M<sup>0</sup>L<sup>−2</sup>T<sup>0</sup>","M<sup>1</sup>L<sup>0</sup>T<sup>0</sup>","M<sup>0</sup>L<sup>7</sup>T<sup>0</sup>","2"],
+
+["Magnetostriction effect is obtained from___ material.","Dia ","Pera","Ferro","Ferri","2"],
+
+["Which among the following is not a type of Non-destructive testing? "," Compression test "," Visual testing"," Ultrasonic testing","eddy current testing","0"],
+
+["Identify the type of destructive testing ______________"," Radiographic test"," Dye penetrant test"," Creep test"," Visual testing","2"],
+
+["Which of the following statements is/are true for the ultrasonic test?"," Equipment used for ultrasonic testing is portable"," Complicated shapes can be easily scanned"," Waves generated are health hazardous"," Waves generated are health hazardous and complicated shapes can be easily scanned","0"],
+
+["Which test can be performed without skilled labour?","probe test ","bend liquid test","dye penetrant test","torsion test","2"],
+
+[" In which type of test the capillary action principle is used?"," . Probe test "," . Bend liquid test"," Dye penetrant test "," None of the above","2"],
+
+["Non-destructive testing is used to determine "," location of defects "," chemical composition "," corrosion of metal "," All of these ","3"],
+
+["Which among the following is not a type of Nondestructive testing? "," compression test "," visual testing "," ultrasonic testing "," eddy current testing ","0"],
+
+["Identify the type of destructive testing "," Radiographic test "," Dye penetrant test "," Creep test "," All of the above ","2"],
+
+[" Which among the following is the last step in magnetic particle test method? "," observation and inspection "," circular magnetization "," demagnetization "," magnetization ","2"],
+
+["Which of the following statements is/are true for ultrasonic test? "," Equipment used for ultrasonic testing is portable "," Complicated shapes can be easily scanned "," Waves generated are health hazardous "," All the above statements are true ","0"]]

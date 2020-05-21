@@ -1,15 +1,47 @@
-[["Which of the following equations represent harmonic oscillations ?","(d<sup>2</sup>𝑋 / 𝑑𝑡<sup>2</sup>)=(−3/2)𝑋","d<sup>2</sup>𝑋/𝑑𝑡<sup>2</sup>=(−3/2)𝑋<sup>2</sup>","d<sup>2</sup>𝑋/𝑑𝑡<sup>2</sup>=(−3/2𝑋)","d<sup>2</sup>𝑋/𝑑𝑡<sup>2</sup>=−3/2","0"],
+[["The unit of absorption coefficient is _______.","dB","W/m²","sabin","phon","2"], 
 
-["if ((d<sup>2</sup>𝑋)/(𝑑𝑡<sup>2</sup>))ω<sup>2</sup>𝑦=0 representing vibration of a particle, the time period of the oscillation is","𝜔<sup>2</sup>","𝜔<sup>3</sup>","2𝜋𝜔","𝜔2𝜋","2"],
+["For good quality of sound in an auditorium,the reverberation time should be _____.","very small ","optimum","very large","zero","1"], 
 
-["The total energy of particle performing SHM is directly proportional to","𝐴−2","𝐴2","𝐴3","𝐴−1","1"],
+["Which of the following statement is wrong?","Sound travels in straight line ","sound travels as waves","sound is a form of energy","sound travels faster in vacuum than in air","3"], 
 
-["Which one of the following is not necessary for SHM","Elasticity","Inertia","Restoring force","Gravity","0"],
+["In the longitudinal waves the direction of vibration in medium","perpendicular to propagation of wave","parallel to propagation ","different from each other","variable for time to time","1"], 
 
-["A velocity of particle performing SHM is maximum at","Equilibrium position"," Extreme position "," Midway between zero and maximum "," No where ","2"],
+["When a pebble is dropped into a pond of still water, what happens","particles","waves  move","the pebble moves","water moves","1"], 
 
-["Total energy of the particle performing SHM is same aquestion_here"," Equilibrium position "," Midway between zero and maxima","Extreme position","All of them","3"],
+["What are the essential properties a medium must possess for the propagation of mechanical waves?","stable pressure ","Maximum friction","Constant temperature","Minimum riction","3"], 
 
-["The potential energy of particle performing SHM is maximum at"," Equilibrium position"," Extreme "," Midway between zero and maxima"," At 1/3 of its amplitude","1"],
+["which of the followin waves can be transmitted through solids,liquids and gases?","Isothermal condition ","Non-isothermal condition","adiabatic condition","Transverse condition","2"], 
 
-["What is the nature of acceleration of a particle executing damped oscillation ?"," Continuously decreasing","Continuously increasing"," It is constant"," Increases and decreases alternately ","0"]]
+["What is the most fundamental property of wave?","Temperature ","Presssure","Frequency","Wavelength","2"], 
+
+["In case of a forced vibration, the resonance peak become  very sharp when the _____.","damping force is small ","restoring force is small","applied periodic force is small","quality factor is smalll","0"], 
+
+["Thw composition of two simple harmonic motions of equal periods at right angle to each other and with a phase difference of π results in the displacement of the particle along____.","circle ","figure of eight","straight line","ellipse","2"], 
+
+["When a source is going a way from a stationary observer, with a velocity equal to that of sound in air, then the frequency heard by the observer will be__.","smae ","half","double","one third","1"], 
+
+["Velocity of sound in air is___.","300 m/s ","3.8 X 10<sup>10</sup> m/s","3.8 X 10<sup>8</sup> m/s ","9 X 10<sup>3</sup> m/s ","1"], 
+
+["Which of the following phenomenon cannot take place with sound wave?","Reflection ","interference","Diffraction","Polarization","3"], 
+
+["Transverse waves can propagate__.","in a gas but not in a metal ","in a metal but not in gas","netither in a gas nor in metal","eigher in gas or in a metal","1"], 
+
+["Waves which require medium for propagation are__.","electromagnetic ","mechanical","transverse","longitudinal","1"], 
+
+["Energy can be transferred from one place to another through__.","linear motion ","circular motaion","force","waves","3"], 
+
+["Time taken to complete a wave is termed as__.","span ","period","life","duration",""], 
+
+["Elastic wave in a solid are__.","only transverse ","only longitudinal","either transverse or longitudinal","neither transverse nor longitudinal","2"], 
+
+["Unit of loudness is__.","Hertz ","phon","second ","sabine","1"], 
+
+["The value of standard intensity is__.","0 Wm<sup>−2</sup>","10<sup>−12</sup> Wm<sup>−2</sup>","10<sup>−2</sup> Wm<sup>−2</sup>","10<sup>12</sup> Wm<sup>−2</sup>","2"], 
+
+["Which of the following is Weber-Fechner's law?","I=Klog<sub>10</sub>I","I=Klog<sub>10</sub>L","L=k log<sub>10</sub>i","I=K log<sub>10</sub>l","0"], 
+
+["___dB is the sound level for the threshold of pain.","0 dB ","120 dB","110 dB","10<sup>−12</sup> dB","1"], 
+
+["The absorption coefficient of an open window is___.","0","0.5","1","2","2"], 
+
+["If the window in a hall are opened, the reverberation time will___.","increase ","decrease","become max","become 0","1"]]

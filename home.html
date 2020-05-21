@@ -33,7 +33,7 @@
               <span class="title">Content Writer</span>
               <p>Kishan Pitroda
               </p>
-              <a href="tel:+919824995976" class="secondary-content"><i class="material-icons">call</i></a>
+              <a href="mailto:kishanpitroda877@gmail.com" class="secondary-content"><i class="material-icons">mail</i></a>
             </li>
             <li class="collection-item avatar">
                 <i class="material-icons circle">account_circle</i>
@@ -58,8 +58,8 @@
     <div class="navbar-fixed">
         <nav style="background-color: #333333;">
           <div class="nav-wrapper">
-            <span class="brand-logo left"><i class="material-icons">arrow_back</i></span>      
-            <span class="center" style="margin-left:5px;font-size: large;" id="quizh"></span>
+            <span class="brand-logo left" id="closeq"><i class="material-icons">arrow_back</i></span>      
+            <span style="margin-left:5px;font-size: large;" id="quizh"></span>
         </div>
         <div class="nav-content">
             <ul id='qtabs' style="list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #333333;overflow-x: auto;display: flex;">
@@ -70,12 +70,14 @@
     <div id="quizd"></div>
 </div>
 <script>
-    
-  $(document).ready(function(){
+$(document).ready(function(){
     $('.modal').modal();
     $('.tabs').tabs();
+});
 
-  });
+$("#closeq").click(function(){
+    location.assign(window.location.href);
+});
 
     var arr = ["Properties Of Matter","Wave Motion and Acoustics","Ultrasonic and Non-Destructive Testing","Superconductivity","Laser"];
 for(var i=0;i<arr.length;i++){
@@ -92,7 +94,7 @@ xmlhttp.onreadystatechange = function() {
 
     for(var j=0;j<ln;j++){
     if(j==0){
-            $("#quiz").append("<div style='width:100%' class='fixed-action-btn-c'><a style='width:100%' class='btn-large blue' id='submitq'>Submit</a></div><div class='fixed-action-btn-r'><a class='btn-floating btn-large blue' id='prvq'><i class='large material-icons'>keyboard_arrow_left</i></a></div><div class='fixed-action-btn-l'><a class='btn-floating btn-large blue' id='nxtq'><i class='large material-icons'>keyboard_arrow_right</i></a></div>");
+            $("#quiz").append("<div id='btn-c' style='width:100%' class='fixed-action-btn-c'><a style='width:100%' class='btn-large blue' id='submitq'>Submit</a></div><div id='btn-r' class='fixed-action-btn-r'><a class='btn-floating btn-large blue' id='prvq'><i class='large material-icons'>keyboard_arrow_left</i></a></div><div id='btn-l' class='fixed-action-btn-l'><a class='btn-floating btn-large blue' id='nxtq'><i class='large material-icons'>keyboard_arrow_right</i></a></div>");
         }
         $("#qtabs").append("<li selected='no' data-id='"+(j+1)+"' id='tab"+(j+1)+"' style='padding-left:15px;padding-right:15px' class='blue-text'>"+(j+1)+"</li>");
 }
@@ -128,8 +130,8 @@ $("#qtabs").children("li").click(function(){
     })
 
 for(var w=0;w<ln;w++){
-    if(w==0){$("#quiz").append("<br><br><br>");}
-    $("#quiz").append("<div id='tab"+(w+1)+"' style='display:none' class='col s12'><div style='margin-left:10px;margin-right:10px;width:calc(100% - 20px)' class='card-panel waves-effect'><b>"+(w+1)+"</b>. "+arrStr[w][0]+"<br><p><label><input class='with-gap' name='group"+w+"' value='1' type='radio'/><span class='black-text'>"+arrStr[w][1]+"</span></label></p><p><label><input class='with-gap' name='group"+w+"' value='2' type='radio'/><span class='black-text'>"+arrStr[w][2]+"</span></label></p><p><label><input class='with-gap' name='group"+w+"' value='3' type='radio'/><span class='black-text'>"+arrStr[w][3]+"</span></label></p><p><label><input class='with-gap' name='group"+w+"' value='4' type='radio'/><span class='black-text'>"+arrStr[w][4]+"</span></label></p></div></div>"); 
+    if(w==0){$("#quizd").append("<br><br><br>");}
+    $("#quizd").append("<div id='tab"+(w+1)+"' style='display:none' class='col s12'><div style='margin-left:10px;margin-right:10px;width:calc(100% - 20px)' class='card-panel waves-effect'><b>"+(w+1)+"</b>. "+arrStr[w][0]+"<br><p><label><input class='with-gap' name='group"+w+"' value='1' type='radio'/><span class='black-text'>"+arrStr[w][1]+"</span></label></p><p><label><input class='with-gap' name='group"+w+"' value='2' type='radio'/><span class='black-text'>"+arrStr[w][2]+"</span></label></p><p><label><input class='with-gap' name='group"+w+"' value='3' type='radio'/><span class='black-text'>"+arrStr[w][3]+"</span></label></p><p><label><input class='with-gap' name='group"+w+"' value='4' type='radio'/><span class='black-text'>"+arrStr[w][4]+"</span></label></p></div></div>"); 
 }
 
 
